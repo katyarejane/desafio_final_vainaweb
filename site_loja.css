@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.banner {
+    width: 100%;
+}
+button {
+    background-color: #5CA720;
+}
+.promocao {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.produtos {
+    align-items: center;
+    justify-content: space-between;
+}
+footer {
+   
+}
+.infor {
+    display: flex;
+    justify-content: space-between;
+}
+.cartoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;              
+    }
+    section {
+        flex-direction: column;
+    }
+    img {
+        overflow: clip;
+    }
+    footer {
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+}
